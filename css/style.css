@@ -1,0 +1,182 @@
+/* All Common Css Start */
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170 px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/* All Common Css End */
+
+/* Top Header Part Start  */
+#topHeader{
+    padding: 25px 0;
+    background: #3E3E3E;
+}
+.topHeaderContent{
+    display:flex;
+    justify-content: space-between;
+}
+.topHeaderLeft{
+    display: flex;
+    gap: 10px;
+}
+.topHeaderLeft p{
+    color:#fff;
+    font-size: 12px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.topHeaderLeft i{
+    margin-right: 12px;
+    font-size: 15px;
+    display: inline-block;
+}
+.topHeaderRight a{
+    color: #fff;
+    margin-right: 10px;
+    transition: .4s;
+}
+.topHeaderRight a:hover{
+    color: #f8b864;
+}
+/* Top Header Part End  */
+
+
+/* Header Part Start */
+#headerPart{
+
+}
+.logo{
+    padding-top: 13px;
+}
+.logoWithMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #555555;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 35px;
+    line-height: 90px;
+    transition: .4s;
+}
+.menu ul li a:hover {
+
+    color:#f8b864;
+}
+/* Header Part End */
+
+
+/* Banner Part Start */
+#bannerPart{
+
+background: url(../images/banner.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.bannerOverly{
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 310px;
+    padding-bottom: 330px;
+}
+.bannerContent{
+    text-align: center;
+    color: #fff;
+}
+.bannerContent h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+}
+.bannerContent span{
+    color: #f8b864;
+}
+.bannerContent h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    padding-top: 35px;
+    padding-bottom: 30px;
+
+}
+.bannerContent p{
+    font-family: "Open Sans", sans-serif;
+    font-size:18px ;
+    padding: 0 380px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.bannerContent a{
+    padding: 15px 35px;
+    background: #f8b864;
+    color: #fff;
+    border-radius: 50px;
+    font-family:"Open Sans", sans-serif;
+    transition: .4s;
+    font-size: 16px;
+}
+.bannerContent a:hover{
+    color: #777;
+    background: #fff;
+}
+
+/* Banner Part End */
+
+
+
+
+
+
+
+
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
