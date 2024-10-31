@@ -149,15 +149,102 @@ background-size: cover;
 
 /* Banner Part End */
 
+/* Goal Part Start */
+.goalPart{
+    height:800px;
+}
+.cardPart{
+    position:relative;
+}
+.card{
+    position: absolute;
+    width:100%;
+    top: -105px;
+    left: 0;
+    background:white;
+    padding-top: 75px;
+    padding-bottom: 160px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+
+}
+.cardText{
+    text-align:center;
+}
+.cardText h3{
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color:#555;
+
+}
+.cardImage{
+    position: absolute;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+.cardImage::before{
+    position: absolute;
+    width: 165px;
+    height: .5px;
+    background:#dddddd;
+    content:"";
+    left: -190px;
+    top: 50%;
+
+}
+.cardImage::after{
+    position: absolute;
+    width: 165px;
+    height: .5px;
+    background:#dddddd;
+    content:"" ;
+    right: -190px;
+    top: 50%;
+}
+.cardText p{
+    font-family:"Open Sans", sans-serif;
+    font-size: 18px;
+    padding-top:60px;
+    color: #777777;
+}
+.cardItemPart{
+    display: flex;
+    padding-top: 80px;
+    padding-right: 70px;
+    padding-left: 70px;
+    justify-content: space-between;
+}
+.cardItemOne{
+    width: 25%;
+    text-align: center;
+}
+.cardItemOne i{
+    font-size: 50px;
+    color: #777777;
+}
+.cardItemOne h2{
+    color:#7e7e7e;
+    font-family:"Roboto Slab", serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.cardItemOne p{
+    color: #686868;
+    font-family:"Open Sans", sans-serif ;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 24px;
+}
 
 
 
+/* GoaL Part End */
 
 
 
-
-/* Header Part Start */
-/* Header Part End */
 /* Header Part Start */
 /* Header Part End */
 /* Header Part Start */
